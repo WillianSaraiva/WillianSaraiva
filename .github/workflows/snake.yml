@@ -24,6 +24,74 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
+      - name: Add Portuguese month labels
+        env:
+          GITHUB_USER: ${{ github.repository_owner }}
+        run: |
+          python - <<'PY'
+          import datetime as dt
+          import os
+          import pathlib
+          import re
+          import urllib.request
+
+          user = os.environ["GITHUB_USER"]
+          request = urllib.request.Request(
+              f"https://github.com/users/{user}/contributions",
+              headers={"User-Agent": "Mozilla/5.0"},
+          )
+          with urllib.request.urlopen(request, timeout=30) as response:
+              html = response.read().decode("utf-8")
+
+          dates = sorted(set(re.findall(r'data-date="(\d{4}-\d{2}-\d{2})"', html)))
+          if not dates:
+              raise RuntimeError("Nao foi possivel obter as datas do grafico de contribuicoes.")
+
+          origin = dt.date.fromisoformat(dates[0])
+          month_names = [
+              "Jan", "Fev", "Mar", "Abr", "Mai", "Jun",
+              "Jul", "Ago", "Set", "Out", "Nov", "Dez",
+          ]
+
+          month_positions = []
+          seen = set()
+          for value in dates:
+              current = dt.date.fromisoformat(value)
+              key = (current.year, current.month)
+              if key in seen:
+                  continue
+              seen.add(key)
+              column = (current - origin).days // 7
+              month_positions.append((column, month_names[current.month - 1]))
+
+          for file_name in (
+              "dist/github-contribution-grid-snake.svg",
+              "dist/github-contribution-grid-snake-dark.svg",
+          ):
+              path = pathlib.Path(file_name)
+              svg = path.read_text(encoding="utf-8")
+              color = "#8b949e" if "dark" in file_name else "#57606a"
+
+              labels = ['<g id="month-labels" aria-label="Meses das contribuicoes">']
+              for column, label in month_positions:
+                  x = 2 + (column * 16)
+                  labels.append(
+                      f'<text x="{x}" y="-10" fill="{color}" '
+                      'font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" '
+                      f'font-size="11">{label}</text>'
+                  )
+              labels.append("</g>")
+              labels_svg = "".join(labels)
+
+              svg = re.sub(
+                  r'(<svg\b[^>]*>)',
+                  r'\1' + labels_svg,
+                  svg,
+                  count=1,
+              )
+              path.write_text(svg, encoding="utf-8")
+          PY
+
       - name: Publish snake to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:

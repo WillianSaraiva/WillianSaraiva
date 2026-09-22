@@ -24,7 +24,8 @@
   <g transform="translate(250 0)"><rect class="pill" width="88" height="34" rx="17"/><text class="pilltxt" x="44" y="22" text-anchor="middle">GitHub</text></g>
 </g>
 <circle cx="905" cy="54" r="28" fill="#1f883d" opacity=".12"/><text x="905" y="63" text-anchor="middle" class="accent" font-size="26">GH</text>
-<text x="805" y="112" class="quote">“Pequenos passos hoje,</text>
-<text x="827" y="137" class="quote">grandes conquistas amanhã.”</text>
-<path d="M851 152h94" stroke="#1f883d" stroke-width="3" stroke-linecap="round"/>
+<text x="770" y="108" class="quote">“Pequenos passos hoje,</text>
+<text x="798" y="132" class="quote">grandes conquistas</text>
+<text x="842" y="156" class="quote">amanhã.”</text>
+<path d="M830 182h86" stroke="#1f883d" stroke-width="3" stroke-linecap="round"/>
 </svg>

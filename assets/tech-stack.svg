@@ -1,0 +1,14 @@
+<svg width="490" height="235" viewBox="0 0 490 235" xmlns="http://www.w3.org/2000/svg">
+<style>
+.bg{fill:#fff;stroke:#d0d7de}.t{fill:#1f2328;font:700 22px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}.s{fill:#6e7781;font:14px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}.card{fill:#f6f8fa;stroke:#d8dee4}.name{fill:#24292f;font:600 15px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}.tag{fill:#ddf4ff}.tagtxt{fill:#0969da;font:12px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+@media(prefers-color-scheme:dark){.bg{fill:#0d1117;stroke:#30363d}.t,.name{fill:#f0f6fc}.s{fill:#8b949e}.card{fill:#161b22;stroke:#30363d}.tag{fill:#0c2d6b}.tagtxt{fill:#58a6ff}}
+</style>
+<rect class="bg" x="1" y="1" width="488" height="233" rx="16"/>
+<text x="24" y="42" class="t">🛠️  Tecnologias e ferramentas</text><text x="24" y="66" class="s">Tecnologias em aprendizado</text>
+<g transform="translate(24 88)">
+ <g><rect class="card" width="98" height="112" rx="12"/><text x="49" y="34" text-anchor="middle" font-size="24">🐍</text><text x="49" y="57" text-anchor="middle" class="name">Python</text><rect class="tag" x="10" y="72" width="78" height="25" rx="12"/><text x="49" y="89" text-anchor="middle" class="tagtxt">Em aprendizado</text></g>
+ <g transform="translate(110)"><rect class="card" width="74" height="112" rx="12"/><text x="37" y="34" text-anchor="middle" font-size="24">C</text><text x="37" y="57" text-anchor="middle" class="name">C</text><rect class="tag" x="7" y="72" width="60" height="25" rx="12"/><text x="37" y="89" text-anchor="middle" class="tagtxt">Estudando</text></g>
+ <g transform="translate(196)"><rect class="card" width="92" height="112" rx="12"/><text x="46" y="34" text-anchor="middle" font-size="24">🔶</text><text x="46" y="57" text-anchor="middle" class="name">Git</text><rect class="tag" x="7" y="72" width="78" height="25" rx="12"/><text x="46" y="89" text-anchor="middle" class="tagtxt">Em aprendizado</text></g>
+ <g transform="translate(300)"><rect class="card" width="122" height="112" rx="12"/><text x="61" y="34" text-anchor="middle" font-size="22">◉</text><text x="61" y="57" text-anchor="middle" class="name">GitHub</text><rect class="tag" x="24" y="72" width="74" height="25" rx="12"/><text x="61" y="89" text-anchor="middle" class="tagtxt">Estudando</text></g>
+</g>
+</svg>

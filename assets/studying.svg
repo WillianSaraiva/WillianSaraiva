@@ -1,0 +1,15 @@
+<svg width="490" height="235" viewBox="0 0 490 235" xmlns="http://www.w3.org/2000/svg">
+<style>
+.bg{fill:#fff;stroke:#d0d7de}.t{fill:#1f2328;font:700 22px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}.pill{fill:#f6f8fa;stroke:#d8dee4}.p{fill:#24292f;font:14px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+@media(prefers-color-scheme:dark){.bg{fill:#0d1117;stroke:#30363d}.t,.p{fill:#f0f6fc}.pill{fill:#161b22;stroke:#30363d}}
+</style>
+<rect class="bg" x="1" y="1" width="488" height="233" rx="16"/><text x="24" y="42" class="t">📚  Atualmente estudando</text>
+<g transform="translate(24 74)">
+ <rect class="pill" width="104" height="38" rx="19"/><text class="p" x="52" y="24" text-anchor="middle">Python</text>
+ <g transform="translate(118)"><rect class="pill" width="132" height="38" rx="19"/><text class="p" x="66" y="24" text-anchor="middle">Linguagem C</text></g>
+ <g transform="translate(264)"><rect class="pill" width="184" height="38" rx="19"/><text class="p" x="92" y="24" text-anchor="middle">Estruturas de Dados</text></g>
+ <g transform="translate(0 54)"><rect class="pill" width="132" height="38" rx="19"/><text class="p" x="66" y="24" text-anchor="middle">Git / GitHub</text></g>
+ <g transform="translate(146 54)"><rect class="pill" width="240" height="38" rx="19"/><text class="p" x="120" y="24" text-anchor="middle">Desenvolvimento de Software</text></g>
+ <g transform="translate(0 108)"><rect class="pill" width="176" height="38" rx="19"/><text class="p" x="88" y="24" text-anchor="middle">Lógica de Programação</text></g>
+</g>
+</svg>

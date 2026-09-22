@@ -1,0 +1,30 @@
+<svg width="1000" height="250" viewBox="0 0 1000 250" xmlns="http://www.w3.org/2000/svg">
+<style>
+  .bg{fill:#f6f8fa;stroke:#d0d7de}.title{fill:#1f2328;font:700 42px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+  .sub{fill:#57606a;font:18px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}.mini{fill:#57606a;font:14px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+  .pill{fill:#ffffff;stroke:#d8dee4}.pilltxt{fill:#24292f;font:14px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+  .accent{fill:#1f883d}.quote{fill:#6e7781;font:italic 16px Georgia,serif}
+  @media (prefers-color-scheme: dark){
+    .bg{fill:#0d1117;stroke:#30363d}.title{fill:#f0f6fc}.sub,.mini{fill:#8b949e}.pill{fill:#161b22;stroke:#30363d}.pilltxt{fill:#c9d1d9}.quote{fill:#8b949e}
+  }
+</style>
+<defs>
+  <linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#2da44e" stop-opacity=".10"/><stop offset="1" stop-color="#2da44e" stop-opacity=".02"/></linearGradient>
+</defs>
+<rect class="bg" x="1" y="1" width="998" height="248" rx="18"/>
+<path d="M1 1h998v78c-130 46-267 48-404 4S258 18 1 75z" fill="url(#g)"/>
+<text x="42" y="43" class="mini">⌁  &lt;/&gt;  APRENDER  •  PRATICAR  •  CONSTRUIR  •  EVOLUIR</text>
+<text x="42" y="98" class="title">Willian Saraiva</text>
+<text x="42" y="132" class="sub">Estudante de Análise e Desenvolvimento de Sistemas | Desenvolvedor em formação</text>
+<text x="42" y="161" class="mini">Construindo minha base em programação e transformando estudos em projetos práticos.</text>
+<g transform="translate(42 184)">
+  <rect class="pill" width="92" height="34" rx="17"/><text class="pilltxt" x="46" y="22" text-anchor="middle">Python</text>
+  <g transform="translate(104 0)"><rect class="pill" width="58" height="34" rx="17"/><text class="pilltxt" x="29" y="22" text-anchor="middle">C</text></g>
+  <g transform="translate(174 0)"><rect class="pill" width="64" height="34" rx="17"/><text class="pilltxt" x="32" y="22" text-anchor="middle">Git</text></g>
+  <g transform="translate(250 0)"><rect class="pill" width="88" height="34" rx="17"/><text class="pilltxt" x="44" y="22" text-anchor="middle">GitHub</text></g>
+</g>
+<circle cx="905" cy="54" r="28" fill="#1f883d" opacity=".12"/><text x="905" y="63" text-anchor="middle" class="accent" font-size="26">GH</text>
+<text x="805" y="112" class="quote">“Pequenos passos hoje,</text>
+<text x="827" y="137" class="quote">grandes conquistas amanhã.”</text>
+<path d="M851 152h94" stroke="#1f883d" stroke-width="3" stroke-linecap="round"/>
+</svg>

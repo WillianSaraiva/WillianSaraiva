@@ -1,0 +1,15 @@
+<svg width="1000" height="220" viewBox="0 0 1000 220" xmlns="http://www.w3.org/2000/svg">
+<style>
+  .bg{fill:#fff;stroke:#d0d7de}.t{fill:#1f2328;font:700 23px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}.p{fill:#57606a;font:16px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}.q{fill:#57606a;font:italic 17px Georgia,serif}
+  @media(prefers-color-scheme:dark){.bg{fill:#0d1117;stroke:#30363d}.t{fill:#f0f6fc}.p,.q{fill:#8b949e}}
+</style>
+<rect class="bg" x="1" y="1" width="998" height="218" rx="16"/>
+<text x="34" y="45" class="t">👨‍💻  Sobre mim</text>
+<text x="34" y="82" class="p">Sou estudante de Análise e Desenvolvimento de Sistemas (ADS) e estou construindo minha base</text>
+<text x="34" y="108" class="p">na área de desenvolvimento de software. Estudo lógica, Python, C, estruturas de dados, Git</text>
+<text x="34" y="134" class="p">e GitHub, usando este perfil para registrar minha evolução, organizar projetos e praticar.</text>
+<text x="34" y="172" class="p">Objetivo: evoluir tecnicamente e construir uma base sólida para atuar profissionalmente em tecnologia.</text>
+<line x1="760" y1="45" x2="760" y2="180" stroke="#d0d7de"/>
+<text x="790" y="77" class="q">“Grandes resultados</text><text x="790" y="104" class="q">são construídos com</text>
+<text x="790" y="131" class="q">pequenos passos</text><text x="790" y="158" class="q">diários.”</text>
+</svg>

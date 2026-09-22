@@ -1,0 +1,21 @@
+<svg width="1000" height="260" viewBox="0 0 1000 260" xmlns="http://www.w3.org/2000/svg">
+<style>
+.bg{fill:#fff;stroke:#d0d7de}.thumb{fill:#161b22}.t{fill:#1f2328;font:700 24px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}.name{fill:#1f2328;font:700 21px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}.p{fill:#57606a;font:15px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}.pill{fill:#f6f8fa;stroke:#d8dee4}.pilltxt{fill:#24292f;font:13px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}.btn{fill:#1f883d}.btnt{fill:white;font:700 15px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+@media(prefers-color-scheme:dark){.bg{fill:#0d1117;stroke:#30363d}.t,.name{fill:#f0f6fc}.p,.pilltxt{fill:#8b949e}.pill{fill:#161b22;stroke:#30363d}}
+</style>
+<rect class="bg" x="1" y="1" width="998" height="258" rx="16"/><text x="28" y="43" class="t">🚀  Projeto em destaque</text>
+<rect class="thumb" x="28" y="68" width="240" height="160" rx="14"/>
+<circle cx="148" cy="133" r="38" fill="#238636"/><circle cx="148" cy="133" r="27" fill="#2f81f7"/>
+<rect x="92" y="93" width="48" height="72" rx="6" fill="#eaeef2" transform="rotate(-16 116 129)"/><rect x="156" y="93" width="48" height="72" rx="6" fill="#eaeef2" transform="rotate(16 180 129)"/>
+<text x="148" y="195" fill="white" font="700 17px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" text-anchor="middle">SUPER TRUNFO</text>
+<text x="148" y="218" fill="#8b949e" font="13px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" text-anchor="middle">PAÍSES</text>
+<text x="304" y="92" class="name">🃏  Super Trunfo — Países</text>
+<text x="304" y="126" class="p">Projeto em C para cadastro e comparação de cartas, aplicando lógica,</text><text x="304" y="151" class="p">cálculos, operadores e estruturas condicionais.</text>
+<g transform="translate(304 173)">
+ <rect class="pill" width="48" height="30" rx="15"/><text class="pilltxt" x="24" y="20" text-anchor="middle">C</text>
+ <g transform="translate(58)"><rect class="pill" width="78" height="30" rx="15"/><text class="pilltxt" x="39" y="20" text-anchor="middle">Lógica</text></g>
+ <g transform="translate(146)"><rect class="pill" width="114" height="30" rx="15"/><text class="pilltxt" x="57" y="20" text-anchor="middle">Condicionais</text></g>
+ <g transform="translate(270)"><rect class="pill" width="86" height="30" rx="15"/><text class="pilltxt" x="43" y="20" text-anchor="middle">Terminal</text></g>
+</g>
+<rect class="btn" x="786" y="176" width="176" height="44" rx="10"/><text class="btnt" x="874" y="203" text-anchor="middle">Acessar projeto  →</text>
+</svg>

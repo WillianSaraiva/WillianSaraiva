@@ -60,7 +60,7 @@ Estou sempre aberto a trocar ideias, aprender e acompanhar oportunidades na áre
 <br>
 
 [![GitHub](https://img.shields.io/badge/GitHub-WillianSaraiva-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/WillianSaraiva)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Em%20breve-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/willian-saraiva-gouveia-aa4267436/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Perfil-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/willian-saraiva-gouveia-aa4267436/)
 ![E--mail](https://img.shields.io/badge/E--mail-Em%20breve-6B7280?style=for-the-badge&logo=gmail&logoColor=white)
 
 <br>
